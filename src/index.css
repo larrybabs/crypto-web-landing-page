@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
 :root{
-  --primary: #118c4f;
+  --primary: #FF3E3D;
   --background: #f5f8ff;
 }
 
@@ -34,6 +34,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #333;
 }
 
 code {
@@ -52,7 +53,7 @@ h2{
 
 h5{
   font-size: 1.1rem;
-  line-height: 1.2rem;
+  /* line-height: 1.2rem; */
 }       
  
 
@@ -65,7 +66,7 @@ p{
    border: 2px solid var(--primary);
    background-color: var(--primary);
    color: #fff;
-   /* border-radius: 16px; */
+   /* border-radius: 16px ; */
    font-size: 1.1rem;
    font-weight: 600;
    cursor: pointer;
@@ -83,6 +84,10 @@ input{
   font-size: 1rem;
   margin-right: .8rem;
   font-family: Poppins, 'sans-serif ';
+}
+input:focus{
+  outline: none;
+  box-shadow: -4px 4px #333;;
 }
 
 @media screen and (max-width: 760px){

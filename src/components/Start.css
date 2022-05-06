@@ -1,0 +1,37 @@
+.start .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.start .left{
+    text-align: center;
+}
+.start img{
+    width: 300px;
+    border-radius: 24px;
+    transition: 0.4s ease;
+    box-shadow: rgba(0,0,0,0.2) 2px 2px 16px;
+}
+.start img:hover{
+    transform: scale(1.1);
+}
+
+.start .right p{
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:940px) {
+    .start .container{
+        grid-template-columns: 1fr;
+    }
+    .start .right{
+        align-items: center;
+        margin: 2rem 0;
+    }
+    .start img:hover{
+        transform: none;
+    }
+}

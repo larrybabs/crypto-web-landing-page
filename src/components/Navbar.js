@@ -9,7 +9,7 @@ const handleClick = () => setNav(!nav);
   return (
     <div className="header">
         <div className="container">
-            <h1>Crypt<span className="primary">Meta</span></h1>
+            <h1>Coin<span className="primary">Meta</span></h1>
             <ul className={nav ? "nav-menu active" : "nav-menu"}>
                 <li>
                     <a href="/">Home</a>

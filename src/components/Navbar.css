@@ -68,3 +68,8 @@
         font-size: 1.2rem;
     }
 }
+@media  screen and (max-width:470px) {
+    .btn{
+        padding: 8px 12px;
+    }
+}

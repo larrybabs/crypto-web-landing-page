@@ -1,3 +1,6 @@
+<img width="1440" alt="coinmeta" src="https://user-images.githubusercontent.com/35136660/167617068-c17d762a-7535-498e-89b3-4dd99d93a224.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
